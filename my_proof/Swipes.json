@@ -1,0 +1,27 @@
+[
+  {
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-iIwAvtGqGJj7uq6Ub17LIDPR3j82UiLOdA&s",
+    "imgText": "Horse",
+    "userResponse": 1
+  },
+  {
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcD2uF7NRv4r285_j3RADo9gjFCXsVaJ74g&s",
+    "imgText": "Car",
+    "userResponse": 1
+  },
+  {
+    "imgUrl": "https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_16x9.jpg",
+    "imgText": "Cat",
+    "userResponse": 1
+  },
+  {
+    "imgUrl": "https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_16x9.jpg",
+    "imgText": "Dog",
+    "userResponse": 1
+  },
+  {
+    "imgUrl": "https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_16x9.jpg",
+    "imgText": "Cat",
+    "userResponse": 0
+  }
+]
