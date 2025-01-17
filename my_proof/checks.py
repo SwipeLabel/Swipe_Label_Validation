@@ -3,8 +3,8 @@ from typing import List, Dict, Any
 from openai import OpenAI
 
 class SwipeValidation:
-    def __init__(self):
-        self.client = OpenAI(api_key="")#needs to be in env
+    def __init__(self, config: Dict[str, Any]):
+        self.client = OpenAI(api_key=config['openai_key'])
         
     def _verify_image_content(self, image_url: str, expected_object: str) -> bool:
         try:

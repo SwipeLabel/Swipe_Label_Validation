@@ -20,7 +20,7 @@ class Proof:
                 print(f"Reading file: {input_file}")
                 with open(input_file, 'r') as f:
                     input_data = json.load(f)
-        swipe_validation = SwipeValidation()
+        swipe_validation = SwipeValidation(self.config)
 
         self.proof_response.score = swipe_validation.validate(input_data)
         self.proof_response.quality = self.proof_response.score

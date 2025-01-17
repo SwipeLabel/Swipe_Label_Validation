@@ -16,8 +16,9 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 def load_config() -> Dict[str, Any]:
     """Load proof configuration from environment variables."""
     config = {
-        'dlp_id': 1,#to be changed
+        'dlp_id': 33,#to be changed
         'input_dir': INPUT_DIR,
+        'openai_key': os.getenv('OPENAI_API_KEY')
     }
     logging.info(f"Using config: {json.dumps(config, indent=2)}")
     return config
